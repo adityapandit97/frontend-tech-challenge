@@ -28,11 +28,25 @@
   color: #61dafb;
 }
 
+.feed-details {
+  flex: 0 0 500px;
+}
+
+.icon-slide button:hover {
+  background-color: #0b0be3;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .feed-details {
+    flex: 1;
   }
 }
